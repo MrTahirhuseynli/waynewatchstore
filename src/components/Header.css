@@ -1,0 +1,35 @@
+/* caruselin genislik problemi */
+.carousel-fullwidth {
+  margin: 0;
+  padding: 0;
+}
+
+/* Carouselin ic stili */
+.carousel-fullwidth .carousel-item img {
+  width: 100%;
+  height: 500px; /* pcde yukleklik */
+  object-fit: cover; /* pcde tam yer tutma */
+}
+
+
+
+/* böyük ekranlar (1366px ve üzeri) */
+@media (min-width: 1366px) {
+  .carousel-fullwidth .carousel-item img {
+    height: 500px; /* Böyük ekranlarda yükseklik */
+  }
+}
+
+/* Tabletler üçün Stil */
+@media (max-width: 992px) and (min-width: 768px) {
+  .carousel-fullwidth .carousel-item img {
+    height: 400px; /* Tabletlde yükseklik */
+  }
+}
+
+/* Mobile First */
+@media (max-width: 767px) {
+  .carousel-fullwidth .carousel-item img {
+    height: 300px; /* Mobil cihazda yükseklik */
+  }
+}

@@ -1,0 +1,34 @@
+.footer {
+    background-color: #5B9C64; 
+    color: #ffffff; 
+  }
+  
+  
+  .footer h5 {
+    border-bottom: 2px solid #1fca36;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+
+  .footer a {
+    color: #ffffff;
+    transition: color 0.3s;
+  }
+  
+  .footer a:hover {
+    color: #adb5bd;
+    text-decoration: none;
+  }
+  
+  /* Sosyal medya ikonları*/
+  .footer .bi {
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .footer .bi:hover {
+    color: #adb5bd;
+    transform: scale(1.2);
+  }
+  

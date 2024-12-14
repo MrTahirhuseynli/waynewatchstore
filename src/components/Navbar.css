@@ -1,0 +1,121 @@
+/* Google Fonts - Leckerli One */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+/* Navbar  */
+.custom-navbar {
+  background-color: #f8f9fa; 
+  padding: 0.5rem 1rem; 
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px solid #ddd; 
+  z-index: 999; /* Navbarın tepede olmagı üçün */
+}
+
+/* Logo dizayn */
+.brand {
+  font-family: 'Leckerli One', cursive; /* logo fontu */
+  font-size: 2rem; /* Logo size */
+  color: #000;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; 
+}
+
+.brand small {
+  font-size: 0.75rem;
+  color: #666; 
+  font-weight: normal;
+}
+
+/* Navbar Link */
+.nav-links {
+  display: flex;
+  gap: 1rem; 
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color:  #006400; /* Link hover aktif rengi */
+  font-weight: bold;
+  border-bottom: 2px solid #006400; /* Aktif link altdan xett */
+}
+
+/* Giriş ve Sebet Butonları */
+.auth-cart {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Butonlar arası */
+  
+}
+
+.auth-cart .btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+}
+
+.auth-cart .btn-custom-blue {
+  background-color: #006400;
+  color: #fff;
+  border: 1px solid #006400;
+}
+
+.auth-cart .btn-custom-blue:hover {
+  background-color: #006400;
+  border-color: #006400;
+}
+
+.auth-cart .btn-outline-dark {
+  border-color: #333;
+  color: #333;
+}
+
+.auth-cart .btn-outline-dark:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Navbar mobile */
+.navbar-toggler {
+  border: none;
+}
+
+/* Mobile first */
+@media (max-width: 992px) {
+  .auth-cart {
+    flex-direction: column; /* Butonları alt alta  */
+    margin-top: 1rem; /* Mobilde üstden boşluq */
+  }
+
+  .nav-links {
+    flex-direction: column; 
+    gap: 0.75rem; 
+    text-align: center;
+  }
+
+  .nav-link {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .brand {
+    font-size: 1.25rem; 
+  }
+
+  .auth-cart .btn {
+    font-size: 0.85rem;
+  }
+}

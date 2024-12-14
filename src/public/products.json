@@ -1,0 +1,156 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "image": "/images/Products/watch1.svg",
+        "model": "MOVADA",
+        "price": 199.99
+      },
+      {
+        "id": 2,
+        "image": "/images/Products/watch2.svg",
+        "model": "BALMAIN",
+        "price": 249.99
+      },
+      {
+        "id": 3,
+        "image": "/images/Products/watch3.svg",
+        "model": "GUESS",
+        "price": 299.99
+      },
+      {
+        "id": 4,
+        "image": "/images/Products/watch4.svg",
+        "model": "VERSACE",
+        "price": 349.99
+      },
+      {
+        "id": 5,
+        "image": "/images/Products/watch5.svg",
+        "model": "TITAN",
+        "price": 399.99
+      },
+      {
+        "id": 6,
+        "image": "/images/Products/watch6.svg",
+        "model": "FOSSIL",
+        "price": 449.99
+      },
+      {
+        "id": 7,
+        "image": "/images/Products/watch7.svg",
+        "model": "KENNETH COLE",
+        "price": 499.99
+      },
+      {
+        "id": 8,
+        "image": "/images/Products/watch8.svg",
+        "model": "ARMANI EXCHANGE",
+        "price": 549.99
+      },
+      {
+        "id": 9,
+        "image": "/images/Products/watch3.svg",
+        "model": "CITIZEN",
+        "price": 299.99
+      },
+      {
+        "id": 10,
+        "image": "/images/Products/watch1.svg",
+        "model": "SEIKO",
+        "price": 199.99
+      },
+      {
+        "id": 11,
+        "image": "/images/Products/watch2.svg",
+        "model": "TISSOT",
+        "price": 249.99
+      },
+      {
+        "id": 12,
+        "image": "/images/Products/watch1.svg",
+        "model": "Apple Watch ",
+        "price": 399.99
+      },
+      {
+        "id": 13,
+        "image": "/images/Products/watch2.svg",
+        "model": "Samsung Galaxy ",
+        "price": 299.99
+      },
+      {
+        "id": 14,
+        "image": "/images/Products/watch3.svg",
+        "model": "Fitbit Versa 4",
+        "price": 229.99
+      },
+      {
+        "id": 15,
+        "image": "/images/Products/watch1.svg",
+        "model": "GUESS",
+        "price": 199.99
+      },
+      {
+        "id": 16,
+        "image": "/images/Products/watch2.svg",
+        "model": "MICHAEL KORS",
+        "price": 249.99
+      },
+      {
+        "id": 17,
+        "image": "/images/Products/watch3.svg",
+        "model": "ROLEX",
+        "price": 299.99
+      },
+      {
+        "id": 18,
+        "image": "/images/Products/watch4.svg",
+        "model": "OMEGA",
+        "price": 349.99
+      },
+      {
+        "id": 19,
+        "image": "/images/Products/watch5.svg",
+        "model": "CALVIN KLEIN",
+        "price": 299.99
+      },
+      {
+        "id": 20,
+        "image": "/images/Products/watch6.svg",
+        "model": "SWATCH",
+        "price": 349.99
+      },
+      {
+        "id": 21,
+        "image": "/images/Products/watch7.svg",
+        "model": "BULOVA",
+        "price": 399.99
+      },
+      {
+        "id": 22,
+        "image": "/images/Products/watch8.svg",
+        "model": "SKAGEN",
+        "price": 449.99
+      },
+      {
+        "id": 23,
+        "image": "/images/Products/watch1.svg",
+        "model": "BREITLING",
+        "price": 499.99
+      },
+      {
+        "id": 24,
+        "image": "/images/Products/watch4.svg",
+        "model": "HAMILTON",
+        "price": 599.99
+      },
+      {
+        "id": 25,
+        "image": "/images/Products/watch3.svg",
+        "model": "TAG HEUER",
+        "price": 749.99
+      }
+    ]
+  }
+
+
